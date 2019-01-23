@@ -1,0 +1,50 @@
+# Functions
+
+print() Displays content to the console
+string.format() Returns a formatted string, useful for including variables within strings
+input() Prompt user to provide value
+open() Open a file
+read() Returns all content of a file
+close() Closes the file
+truncate() Clears out all content of the file (danger, danger)
+write() Write content to a file
+seek() Change the read/write point of a file
+readline() Return a single line of a file
+
+# Symbol
+    '' single quotes, for strings
+    "" double quotes, also for strings
+    f"" formatted string
+    # octothorpe for comments
+    + addition math
+    - substraction math
+    * multiplication math
+    * (when next to a parameter means it can take any arbitrary number of arguments)
+    * (when a parameter by itself means all the remaining parameters will be keyword only)
+    / division math
+    < less than comparison
+    > greater than comparison
+    = variable assignment
+    _ underscore, commonly used when naming variables and functions
+    {} curly braces, used to include variables within formatted strings
+    [] brackets, used with arrays
+
+# Escape Characters
+    \n New line
+    \t Tab
+    \\ The backslash (\) character 
+
+
+# Keywords
+    False Boolean value (false)
+    True Boolean value (true)
+    from  Specifies a module to import a package from
+    import The package within the module we're making available
+
+# Modules
+    from sys import argv
+    from os.path import exists
+
+# Ideas
+    Unpacking variables
+    pydoc for help pages
